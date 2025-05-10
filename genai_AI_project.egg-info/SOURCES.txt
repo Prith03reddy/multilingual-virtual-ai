@@ -1,0 +1,7 @@
+setup.py
+genai_AI_project.egg-info/PKG-INFO
+genai_AI_project.egg-info/SOURCES.txt
+genai_AI_project.egg-info/dependency_links.txt
+genai_AI_project.egg-info/top_level.txt
+src/__init__.py
+src/helper.py

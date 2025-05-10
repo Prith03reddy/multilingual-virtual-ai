@@ -1,0 +1,33 @@
+import streamlit as st
+from src.helper import voice_input,llm_model,text_to_speech
+
+
+def main():
+    st.title("Multilingual AI voice Assistance")
+    if st.button("ask me anything"):
+        with st.spinner("listening"):
+            text=voice_input()
+            response=llm_model(text)
+            text_to_speech(response)
+
+        audio_file=open("voice0.mp3","rb")
+        audio_bytes=audio_file.read()
+
+
+        st.text_area(label="response:",value=response,height=350)
+        st.audio(audio_bytes)
+        st.download_button(label="download speech",
+                           data=audio_bytes,
+                           file_name="speech.mp3",
+                           mime="audio/mp3")
+
+
+
+
+
+
+
+
+
+if __name__=='__main__':
+    main()
