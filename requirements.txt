@@ -5,7 +5,3 @@ pip install gTTS
 pip install google-generativeai
 pip install python-dotenv
 pip install streamlit
-
-
-
--o.
