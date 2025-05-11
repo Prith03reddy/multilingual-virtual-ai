@@ -8,8 +8,4 @@ pip install streamlit
 
 
 
-api key:
-
-AIzaSyCuTDEI_l6RHpIDS6Vk20Zv0N3wJxIroYo
-
 -o.
