@@ -10,7 +10,7 @@ def main():
             response=llm_model(text)
             text_to_speech(response)
 
-        audio_file=open("voice0.mp3","rb")
+        audio_file=open("speech.mp3","rb")
         audio_bytes=audio_file.read()
 
 
