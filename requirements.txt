@@ -1,7 +1,9 @@
-pip install SpeechRecognition
-pip install pipwin
-pip install pyaudio
-pip install gTTS
-pip install google-generativeai
-pip install python-dotenv
-pip install streamlit
+SpeechRecognition
+pipwin
+pyaudio
+gTTS
+google-generativeai
+python-dotenv
+streamlit
+
+-e.
