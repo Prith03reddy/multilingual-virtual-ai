@@ -31,7 +31,7 @@ def voice_input():
 
 def llm_model(user_text):
     genai.configure(api_key="AIzaSyCuTDEI_l6RHpIDS6Vk20Zv0N3wJxIroYo")
-    model=genai.GenerativeModel('models/gemini-1.5-flash')
+    model=genai.GenerativeModel('models/gemini-1.5-flash-001')
     response = model.generate_content(user_text)
     result=response.text
     return result
